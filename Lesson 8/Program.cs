@@ -29,7 +29,7 @@ namespace Lesson_8
             int age = Properties.Settings.Default.Age;
             string busy = Properties.Settings.Default.Busy;
             string greeting = Properties.Settings.Default.Greating;
-            Console.WriteLine($"{greeting}, {userName},{age},{busy}!");
+            Console.Write($"{greeting}, {userName},{age},{busy}!");
 
 
 
